@@ -1,0 +1,8 @@
+#To remove duplicates in the list
+
+numbers2 = [3, 5, 4, 3, 6, 5, 7, 4]
+new_list = []
+for number in numbers2:
+  if number not in new_list:
+    new_list.append(number)
+print(new_list)
