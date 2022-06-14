@@ -1,0 +1,15 @@
+def emoji_converter(message):
+  words = message.split(" ")
+  final = ""
+  emojis = {
+    ":)" : "🙂",
+    ":(" : "🙁",
+    ":*" : "😘"
+  }
+  for word in words:
+    final += emojis.get(word, word) + " "
+  return final
+
+  
+message = input(">")
+print(emoji_converter(message))
