@@ -1,0 +1,334 @@
+>>> for c in "chai":
+...     print(c)
+... 
+c
+h
+a
+i
+>>> import sys
+>>> sys.platform
+'win32'
+>>> import hello_chai
+hello chai
+green tea
+>>> hello_chai.chai("mint chai")
+mint chai
+>>> hello_chai.chai_three 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'hello_chai' has no attribute 'chai_three'
+>>> from importlib import reload
+>>> reload(hello_chai)
+hello chai
+green tea
+<module 'hello_chai' from 'C:\\Users\\AgYa067\\OneDrive - HP Inc\\Py\\basics\\hello_chai.py'>
+>>> hello_chai.chai_three       
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'hello_chai' has no attribute 'chai_three'
+>>>
+>>> hello_chai.chai_three
+>>> hello_chai.chai_three
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'hello_chai' has no attribute 'chai_three'
+AttributeError: module 'hello_chai' has no attribute 'chai_three'
+>>> hello_chai.chai_one
+Traceback (most recent call last):
+>>> hello_chai.chai_one
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'hello_chai' has no attribute 'chai_one'
+>>> reload
+>>> reload
+<function reload at 0x000002D8B72D0040>
+>>> hello_chai.chai_one
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'hello_chai' has no attribute 'chai_one'
+>>> reload
+<function reload at 0x000002D8B72D0040>
+>>> hello_chai.chai_one
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'hello_chai' has no attribute 'chai_one'
+>>> reload(hello_chai)
+hello chai
+green tea
+<module 'hello_chai' from 'C:\\Users\\AgYa067\\OneDrive - HP Inc\\Py\\basics\\hello_chai.py'>
+>>> hello_chai.chai_one
+'lemon tea'
+>>> hello_chai.chai_three
+'green tea'
+>>>
+>>>
+>>>
+>>>
+>>> 12+12
+24
+>>> 2.5 * 5
+12.5
+>>> 2 ** 4
+16
+>>> 2 ** 100
+1267650600228229401496703205376
+>>> math.pi
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'math' is not defined
+>>> import math
+>>> math.pi
+3.141592653589793
+>>> import random
+>>> random()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'module' object is not callable
+>>> random ()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'module' object is not callable
+>>> random.random()
+0.5014607788064042
+0.5014607788064042
+0.5014607788064042
+0.5014607788064042
+>>>
+>>>
+>>> username = "chaiaurcode"
+>>> len(username)
+0.5014607788064042
+>>>
+>>>
+>>> username = "chaiaurcode"
+>>> len(username)
+0.5014607788064042
+>>>
+>>>
+>>> username = "chaiaurcode"
+0.5014607788064042
+>>>
+0.5014607788064042
+>>>
+>>>
+>>> username = "chaiaurcode"
+0.5014607788064042
+>>>
+>>>
+0.5014607788064042
+>>>
+>>>
+0.5014607788064042
+>>>
+0.5014607788064042
+>>>
+>>>
+>>> username = "chaiaurcode"
+0.5014607788064042
+>>>
+>>>
+0.5014607788064042
+>>>
+>>>
+0.5014607788064042
+>>>
+>>>
+>>> username = "chaiaurcode"
+0.5014607788064042
+>>>
+>>>
+0.5014607788064042
+>>>
+0.5014607788064042
+>>>
+>>>
+0.5014607788064042
+>>>
+>>>
+>>>
+>>> username = "chaiaurcode"
+>>> len(username)
+11
+>>> dir(username)
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> len(usename)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'usename' is not defined. Did you mean: 'username'?
+>>> len(username)
+11
+>>> username(3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> username[3]
+'i'
+>>> x = 2
+>>> y = 3
+>>> z = 4
+>>> x+y
+5
+>>> x + y * z
+14
+>>> (x + y) * z
+20
+>>> 2 ** 1000
+10715086071862673209484250490600018105614048117055336074437503883703510511249361224931983788156958581275946729175531468251871452856923140435984577574698574803934567774824230985421074605062371141877954182153046474983581941267398767559165543946077062914571196477686542167660429831652624386837205668069376
+>>> import math
+>>> math.floor(3.6)
+3
+>>> math.floor(-3.6)
+-4
+>>> math.trunc(3.4) 
+3
+>>> math.trunc(-3.4)
+-3
+>>> random.choice(4,5,6,6)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Random.choice() takes 2 positional arguments but 5 were given
+>>> random.choice(4, 5, 6, 6)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Random.choice() takes 2 positional arguments but 5 were given
+>>> random.choice(4, 5)      
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Random.choice() takes 2 positional arguments but 3 were given
+>>> random.choice(4 5) 
+  File "<stdin>", line 1
+    random.choice(4 5)
+                  ^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> random.choice(4)  
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Program Files\Python310\lib\random.py", line 378, in choice
+    return seq[self._randbelow(len(seq))]
+    return seq[self._randbelow(len(seq))]
+    return seq[self._randbelow(len(seq))]
+TypeError: object of type 'int' has no len()
+>>> random.choice()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Random.choice() missing 1 required positional argument: 'seq'
+>>> random.choice(6)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Program Files\Python310\lib\random.py", line 378, in choice
+    return seq[self._randbelow(len(seq))]
+TypeError: object of type 'int' has no len()
+>>> random.choice()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Random.choice() missing 1 required positional argument: 'seq'
+>>> random.random()
+0.216281361779454
+>>> l1 = [2, 3, 4, 5]
+>>> random.choice(l1)
+3
+>>> random.choice(l1)
+5
+>>> random.choice(l1)
+4
+>>>
+>>> 
+>>> chai = "Masala Chai"
+>>> print(chai)
+Masala Chai
+>>> first_char = chai[0]
+>>> print(first_char)
+M
+>>>
+>>> slice_chai = chai[0:6]
+>>> print(slice_chai)
+Masala
+>>> num_list = "0123456789"
+>>> num_list[:]
+'0123456789'
+>>> num_list[:2]
+'01'
+>>> num_list[:-1]
+'012345678'
+>>> num_list[2:] 
+'23456789'
+>>> num_list[-1:]
+'9'
+>>> num_list[2:7:3]
+'25'
+>>> print(chai.lower())
+masala chai
+>>> chai = "Lemon Chai"
+>>> print(chai.replace("Lemon", "Ginger")) 
+Ginger Chai
+>>> tea_vari = ["Black", "Green", "Oolong". "White" ]
+  File "<stdin>", line 1
+    tea_vari = ["Black", "Green", "Oolong". "White" ]
+                                            ^^^^^^^
+SyntaxError: invalid syntax
+>>> tea_vari = ["Black", "Green", "Oolong". "White"] 
+  File "<stdin>", line 1
+    tea_vari = ["Black", "Green", "Oolong". "White"]
+                                            ^^^^^^^
+SyntaxError: invalid syntax
+>>> tea_vari = ["Black", "Green", "Oolong", "White"]
+>>> tea_vari
+['Black', 'Green', 'Oolong', 'White']
+>>> print(tea_vari)
+['Black', 'Green', 'Oolong', 'White']
+>>> print(tea_vari[2])
+Oolong
+>>> print(tea_vari[-1])
+White
+>>> print(tea_vari[:3])
+['Black', 'Green', 'Oolong']
+>>> print(tea_vari[3]) 
+White
+>>> print(tea_vari[3])
+White
+>>> tea_vari[3] = "Herbal"
+>>> print(tea_vari[3])    
+Herbal
+>>> print(tea_vari)   
+['Black', 'Green', 'Oolong', 'Herbal']
+>>> tea_vari
+['Black', 'Green', 'Oolong', 'Herbal']
+>>> tea_vari[3] = "Masala"
+>>> print(tea_vari)
+['Black', 'Green', 'Oolong', 'Masala']
+>>> print(tea_vari)
+['Black', 'Green', 'Oolong', 'Masala']
+>>> for tea in tea_vari:
+...     print(tea)
+... 
+Black
+Green
+Oolong
+Masala
+>>>
+>>> for tea in tea_vari:
+...     print(tea, end="-")
+... 
+Black-Green-Oolong-Masala->>> 
+>>> if "Oolong" in tea_vari:
+...     print("I have Oolong tea")
+... 
+I have Oolong tea
+>>> if "White" in tea_vari:       
+...     print("I have White tea")
+... 
+>>> tea_vari.append = "White"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object attribute 'append' is read-only
+>>> tea_vari.append("White") 
+>>> tea_vari                 
+['Black', 'Green', 'Oolong', 'Masala', 'White']
+>>> if "White" in tea_vari:      
+...     print("I have White tea")
+... 
+I have White tea
