@@ -332,3 +332,22 @@ AttributeError: 'list' object attribute 'append' is read-only
 ...     print("I have White tea")
 ... 
 I have White tea
+
+>>> tea_vari.pop()
+'White'
+>>> tea_vari                     
+['Black', 'Green', 'Oolong', 'Masala']
+>>> tea_vari.insert(2, "White")
+>>> tea_vari
+['Black', 'Green', 'White', 'Oolong', 'Masala']
+>>> range(10)
+range(0, 10)
+>>> print(range(10))
+range(0, 10)
+>>> squared_num = [x**2 for x in range(10)]
+>>> squared_num
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> cube_num = [y**3 for y in range(6)]
+>>> cube_num
+[0, 1, 8, 27, 64, 125]
+>>>
